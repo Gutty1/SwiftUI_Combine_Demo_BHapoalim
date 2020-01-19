@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		005F525B23D49CCD006EC41B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005F525A23D49CCD006EC41B /* AppDelegate.swift */; };
+		005F525D23D49CCD006EC41B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005F525C23D49CCD006EC41B /* SceneDelegate.swift */; };
+		005F525F23D49CCD006EC41B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005F525E23D49CCD006EC41B /* ContentView.swift */; };
+		005F526123D49CD1006EC41B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 005F526023D49CD1006EC41B /* Assets.xcassets */; };
+		005F526423D49CD1006EC41B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 005F526323D49CD1006EC41B /* Preview Assets.xcassets */; };
+		005F526723D49CD1006EC41B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 005F526523D49CD1006EC41B /* LaunchScreen.storyboard */; };
+		005F527223D49CD1006EC41B /* HapoalimSwiftUIExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005F527123D49CD1006EC41B /* HapoalimSwiftUIExampleTests.swift */; };
+		005F527D23D49CD1006EC41B /* HapoalimSwiftUIExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005F527C23D49CD1006EC41B /* HapoalimSwiftUIExampleUITests.swift */; };
+		005F528C23D49D44006EC41B /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005F528A23D49D44006EC41B /* ImageView.swift */; };
+		005F528D23D49D44006EC41B /* model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005F528B23D49D44006EC41B /* model.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		005F526E23D49CD1006EC41B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 005F524F23D49CCD006EC41B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 005F525623D49CCD006EC41B;
+			remoteInfo = HapoalimSwiftUIExample;
+		};
+		005F527923D49CD1006EC41B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 005F524F23D49CCD006EC41B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 005F525623D49CCD006EC41B;
+			remoteInfo = HapoalimSwiftUIExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		005F525723D49CCD006EC41B /* HapoalimSwiftUIExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HapoalimSwiftUIExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		005F525A23D49CCD006EC41B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		005F525C23D49CCD006EC41B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		005F525E23D49CCD006EC41B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		005F526023D49CD1006EC41B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		005F526323D49CD1006EC41B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		005F526623D49CD1006EC41B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		005F526823D49CD1006EC41B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		005F526D23D49CD1006EC41B /* HapoalimSwiftUIExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HapoalimSwiftUIExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		005F527123D49CD1006EC41B /* HapoalimSwiftUIExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapoalimSwiftUIExampleTests.swift; sourceTree = "<group>"; };
+		005F527323D49CD1006EC41B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		005F527823D49CD1006EC41B /* HapoalimSwiftUIExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HapoalimSwiftUIExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		005F527C23D49CD1006EC41B /* HapoalimSwiftUIExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapoalimSwiftUIExampleUITests.swift; sourceTree = "<group>"; };
+		005F527E23D49CD1006EC41B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		005F528A23D49D44006EC41B /* ImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		005F528B23D49D44006EC41B /* model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = model.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		005F525423D49CCD006EC41B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		005F526A23D49CD1006EC41B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		005F527523D49CD1006EC41B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		005F524E23D49CCD006EC41B = {
+			isa = PBXGroup;
+			children = (
+				005F525923D49CCD006EC41B /* HapoalimSwiftUIExample */,
+				005F527023D49CD1006EC41B /* HapoalimSwiftUIExampleTests */,
+				005F527B23D49CD1006EC41B /* HapoalimSwiftUIExampleUITests */,
+				005F525823D49CCD006EC41B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		005F525823D49CCD006EC41B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				005F525723D49CCD006EC41B /* HapoalimSwiftUIExample.app */,
+				005F526D23D49CD1006EC41B /* HapoalimSwiftUIExampleTests.xctest */,
+				005F527823D49CD1006EC41B /* HapoalimSwiftUIExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		005F525923D49CCD006EC41B /* HapoalimSwiftUIExample */ = {
+			isa = PBXGroup;
+			children = (
+				005F525A23D49CCD006EC41B /* AppDelegate.swift */,
+				005F525C23D49CCD006EC41B /* SceneDelegate.swift */,
+				005F525E23D49CCD006EC41B /* ContentView.swift */,
+				005F528A23D49D44006EC41B /* ImageView.swift */,
+				005F528B23D49D44006EC41B /* model.swift */,
+				005F526023D49CD1006EC41B /* Assets.xcassets */,
+				005F526523D49CD1006EC41B /* LaunchScreen.storyboard */,
+				005F526823D49CD1006EC41B /* Info.plist */,
+				005F526223D49CD1006EC41B /* Preview Content */,
+			);
+			path = HapoalimSwiftUIExample;
+			sourceTree = "<group>";
+		};
+		005F526223D49CD1006EC41B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				005F526323D49CD1006EC41B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		005F527023D49CD1006EC41B /* HapoalimSwiftUIExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				005F527123D49CD1006EC41B /* HapoalimSwiftUIExampleTests.swift */,
+				005F527323D49CD1006EC41B /* Info.plist */,
+			);
+			path = HapoalimSwiftUIExampleTests;
+			sourceTree = "<group>";
+		};
+		005F527B23D49CD1006EC41B /* HapoalimSwiftUIExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				005F527C23D49CD1006EC41B /* HapoalimSwiftUIExampleUITests.swift */,
+				005F527E23D49CD1006EC41B /* Info.plist */,
+			);
+			path = HapoalimSwiftUIExampleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		005F525623D49CCD006EC41B /* HapoalimSwiftUIExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 005F528123D49CD1006EC41B /* Build configuration list for PBXNativeTarget "HapoalimSwiftUIExample" */;
+			buildPhases = (
+				005F525323D49CCD006EC41B /* Sources */,
+				005F525423D49CCD006EC41B /* Frameworks */,
+				005F525523D49CCD006EC41B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HapoalimSwiftUIExample;
+			productName = HapoalimSwiftUIExample;
+			productReference = 005F525723D49CCD006EC41B /* HapoalimSwiftUIExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		005F526C23D49CD1006EC41B /* HapoalimSwiftUIExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 005F528423D49CD1006EC41B /* Build configuration list for PBXNativeTarget "HapoalimSwiftUIExampleTests" */;
+			buildPhases = (
+				005F526923D49CD1006EC41B /* Sources */,
+				005F526A23D49CD1006EC41B /* Frameworks */,
+				005F526B23D49CD1006EC41B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				005F526F23D49CD1006EC41B /* PBXTargetDependency */,
+			);
+			name = HapoalimSwiftUIExampleTests;
+			productName = HapoalimSwiftUIExampleTests;
+			productReference = 005F526D23D49CD1006EC41B /* HapoalimSwiftUIExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		005F527723D49CD1006EC41B /* HapoalimSwiftUIExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 005F528723D49CD1006EC41B /* Build configuration list for PBXNativeTarget "HapoalimSwiftUIExampleUITests" */;
+			buildPhases = (
+				005F527423D49CD1006EC41B /* Sources */,
+				005F527523D49CD1006EC41B /* Frameworks */,
+				005F527623D49CD1006EC41B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				005F527A23D49CD1006EC41B /* PBXTargetDependency */,
+			);
+			name = HapoalimSwiftUIExampleUITests;
+			productName = HapoalimSwiftUIExampleUITests;
+			productReference = 005F527823D49CD1006EC41B /* HapoalimSwiftUIExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		005F524F23D49CCD006EC41B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Arie Guttman";
+				TargetAttributes = {
+					005F525623D49CCD006EC41B = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					005F526C23D49CD1006EC41B = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 005F525623D49CCD006EC41B;
+					};
+					005F527723D49CD1006EC41B = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 005F525623D49CCD006EC41B;
+					};
+				};
+			};
+			buildConfigurationList = 005F525223D49CCD006EC41B /* Build configuration list for PBXProject "HapoalimSwiftUIExample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 005F524E23D49CCD006EC41B;
+			productRefGroup = 005F525823D49CCD006EC41B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				005F525623D49CCD006EC41B /* HapoalimSwiftUIExample */,
+				005F526C23D49CD1006EC41B /* HapoalimSwiftUIExampleTests */,
+				005F527723D49CD1006EC41B /* HapoalimSwiftUIExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		005F525523D49CCD006EC41B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				005F526723D49CD1006EC41B /* LaunchScreen.storyboard in Resources */,
+				005F526423D49CD1006EC41B /* Preview Assets.xcassets in Resources */,
+				005F526123D49CD1006EC41B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		005F526B23D49CD1006EC41B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		005F527623D49CD1006EC41B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		005F525323D49CCD006EC41B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				005F528D23D49D44006EC41B /* model.swift in Sources */,
+				005F528C23D49D44006EC41B /* ImageView.swift in Sources */,
+				005F525B23D49CCD006EC41B /* AppDelegate.swift in Sources */,
+				005F525D23D49CCD006EC41B /* SceneDelegate.swift in Sources */,
+				005F525F23D49CCD006EC41B /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		005F526923D49CD1006EC41B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				005F527223D49CD1006EC41B /* HapoalimSwiftUIExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		005F527423D49CD1006EC41B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				005F527D23D49CD1006EC41B /* HapoalimSwiftUIExampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		005F526F23D49CD1006EC41B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 005F525623D49CCD006EC41B /* HapoalimSwiftUIExample */;
+			targetProxy = 005F526E23D49CD1006EC41B /* PBXContainerItemProxy */;
+		};
+		005F527A23D49CD1006EC41B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 005F525623D49CCD006EC41B /* HapoalimSwiftUIExample */;
+			targetProxy = 005F527923D49CD1006EC41B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		005F526523D49CD1006EC41B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				005F526623D49CD1006EC41B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		005F527F23D49CD1006EC41B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		005F528023D49CD1006EC41B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		005F528223D49CD1006EC41B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"HapoalimSwiftUIExample/Preview Content\"";
+				DEVELOPMENT_TEAM = CBLL89G347;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = HapoalimSwiftUIExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gutty1.HapoalimSwiftUIExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		005F528323D49CD1006EC41B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"HapoalimSwiftUIExample/Preview Content\"";
+				DEVELOPMENT_TEAM = CBLL89G347;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = HapoalimSwiftUIExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gutty1.HapoalimSwiftUIExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		005F528523D49CD1006EC41B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CBLL89G347;
+				INFOPLIST_FILE = HapoalimSwiftUIExampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gutty1.HapoalimSwiftUIExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HapoalimSwiftUIExample.app/HapoalimSwiftUIExample";
+			};
+			name = Debug;
+		};
+		005F528623D49CD1006EC41B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CBLL89G347;
+				INFOPLIST_FILE = HapoalimSwiftUIExampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gutty1.HapoalimSwiftUIExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HapoalimSwiftUIExample.app/HapoalimSwiftUIExample";
+			};
+			name = Release;
+		};
+		005F528823D49CD1006EC41B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CBLL89G347;
+				INFOPLIST_FILE = HapoalimSwiftUIExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gutty1.HapoalimSwiftUIExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HapoalimSwiftUIExample;
+			};
+			name = Debug;
+		};
+		005F528923D49CD1006EC41B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CBLL89G347;
+				INFOPLIST_FILE = HapoalimSwiftUIExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gutty1.HapoalimSwiftUIExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HapoalimSwiftUIExample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		005F525223D49CCD006EC41B /* Build configuration list for PBXProject "HapoalimSwiftUIExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				005F527F23D49CD1006EC41B /* Debug */,
+				005F528023D49CD1006EC41B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		005F528123D49CD1006EC41B /* Build configuration list for PBXNativeTarget "HapoalimSwiftUIExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				005F528223D49CD1006EC41B /* Debug */,
+				005F528323D49CD1006EC41B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		005F528423D49CD1006EC41B /* Build configuration list for PBXNativeTarget "HapoalimSwiftUIExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				005F528523D49CD1006EC41B /* Debug */,
+				005F528623D49CD1006EC41B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		005F528723D49CD1006EC41B /* Build configuration list for PBXNativeTarget "HapoalimSwiftUIExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				005F528823D49CD1006EC41B /* Debug */,
+				005F528923D49CD1006EC41B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 005F524F23D49CCD006EC41B /* Project object */;
+}
