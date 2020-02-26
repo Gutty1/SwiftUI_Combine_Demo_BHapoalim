@@ -49,26 +49,3 @@ struct ImageView_Previews: PreviewProvider {
 }
 
 
-//ZStack (alignment: .bottomLeading) {
-//    Image(imageString)
-//        .resizable()
-//        .aspectRatio(contentMode: .fit)
-//        .frame(height: 200)
-//        .cornerRadius(20)
-//        .shadow(radius: 10)
-//    Text("Baby Yoda")
-//        .foregroundColor(.white)
-//        .padding()
-//
-//}
-//.offset(drag)
-//.animation(.linear(duration: 2))
-//.gesture(
-//    DragGesture()
-//        .onChanged { value in
-//            self.drag = value.translation
-//    }
-//    .onEnded({ _ in
-//        self.drag = .zero
-//    }))
-
